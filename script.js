@@ -19,7 +19,7 @@ function kolejnyNumer(){
     }
     else{
         if(timeInterval > 300){
-            timeInterval -= 10
+            timeInterval -= 50
             clearInterval(numerInterval)
             numerInterval = setInterval(kolejnyNumer, timeInterval) 
         }     
